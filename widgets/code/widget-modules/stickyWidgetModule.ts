@@ -12,8 +12,8 @@ const createWidget = (note: string) => {
         let bgColor = Color.black()
         widget.backgroundColor = bgColor
     } else {
-        let startColor = new Color("#F8DE5F", 1)
-        let endColor = new Color("#FFCF00", 1)
+        let startColor = new Color("#960051", 1)
+        let endColor = new Color("#960051", 1)
         let gradient = new LinearGradient()
         gradient.colors = [startColor, endColor]
         gradient.locations = [0.0, 1]
